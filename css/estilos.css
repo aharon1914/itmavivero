@@ -1,0 +1,47 @@
+/*cabecera o barra*/
+
+.cabecera {
+    max-width: 1400px;
+    background-color: #e1f4f3;
+}
+
+
+/* navegacion,*/
+
+.navegacion a {
+    text-decoration: none;
+    color: rgb(66, 59, 59);
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 10px;
+    border-bottom: dimgray;
+}
+
+.navegacion a {
+    box-shadow: rgb(82, 77, 77);
+}
+
+
+/*Modifca la barra alado del icono*/
+
+.barra {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* imagen de la barra*/
+
+img {
+    width: 260px;
+    height: 100px;
+}
+
+
+/*cuerpo de la pagina.*/
+
+.contenedor {
+    background-color: #edf7fa;
+}
