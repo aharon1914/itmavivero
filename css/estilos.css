@@ -7,18 +7,63 @@
 
 
 /* navegacion,*/
+.navegacion{
+ height: 50px;   
+}
 
+.navegacion ul{
+    list-style: none;
+}
+/* barra interactiva */
+.menu li a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+    font-family: Arial, Helvetica;
+    position: relative;
+}
+/*organiza el menu*/
+.menu>li{
+    float: left;
+    }
+
+.menu>li>ul{
+    display: none;
+}
+
+.menu li a:hover{
+    color: black;
+}
+
+/*menu secundario*/
+.menu>li:hover>ul{
+    display: block;
+}
+
+/* movimiento de la barra*/
 .navegacion a {
     text-decoration: none;
     color: rgb(66, 59, 59);
     text-transform: uppercase;
     display: inline;
-    margin-right: 10px;
-    border-bottom: dimgray;
+    margin-right: 4px;
+    padding: 8px;
+    transition-property: all;
+    transition-duration: .70s;
+    transition-delay: .2s;
+    
 }
+/* barra menu desplegable */
 
-.navegacion a {
-    box-shadow: rgb(82, 77, 77);
+
+.navegacion a:hover{
+    color: black;
+    background-color: brown;
+    
+    
 }
 
 
@@ -29,19 +74,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
 }
 
 
 /* imagen de la barra*/
 
 img {
-    width: 260px;
+    width: 250px;
     height: 100px;
+    margin-left: 1em;
 }
 
 
 /*cuerpo de la pagina.*/
 
-.contenedor {
-    background-color: #edf7fa;
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
 }
+
+.biendenidos{
+    width: 600px;
+    height: 500px;
+    padding: 5em;
+    max-width: 100%;
+    border-radius: 40% 0;
+}
+
