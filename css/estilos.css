@@ -7,16 +7,19 @@
 
 
 /* navegacion,*/
-.navegacion{
- height: 50px;   
+
+.navegacion {
+    height: 50px;
 }
 
-.navegacion ul{
+.navegacion ul {
     list-style: none;
 }
+
+
 /* barra interactiva */
-.menu li a{
-    background-color: white;
+
+.menu li a {
     color: black;
     padding: 5px;
     display: block;
@@ -25,25 +28,32 @@
     font-family: Arial, Helvetica;
     position: relative;
 }
-/*organiza el menu*/
-.menu>li{
-    float: left;
-    }
 
-.menu>li>ul{
+
+/*organiza el menu*/
+
+.menu>li {
+    float: left;
+}
+
+.menu>li>ul {
     display: none;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: black;
 }
 
+
 /*menu secundario*/
-.menu>li:hover>ul{
+
+.menu>li:hover>ul {
     display: block;
 }
 
+
 /* movimiento de la barra*/
+
 .navegacion a {
     text-decoration: none;
     color: rgb(66, 59, 59);
@@ -54,16 +64,14 @@
     transition-property: all;
     transition-duration: .70s;
     transition-delay: .2s;
-    
 }
+
+
 /* barra menu desplegable */
 
-
-.navegacion a:hover{
+.navegacion a:hover {
     color: black;
     background-color: brown;
-    
-    
 }
 
 
@@ -74,28 +82,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 
 
 /* imagen de la barra*/
 
-img {
+.logo {
     width: 250px;
     height: 100px;
     margin-left: 1em;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 /*cuerpo de la pagina.*/
 
-.contenedor{
+.contenedor {
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center
 }
 
-.biendenidos{
+.contenedor-imagen {
+    max-width: 700px;
+    max-height: 500px;
+}
+
+.biendenidos {
     width: 600px;
     height: 500px;
     padding: 5em;
@@ -103,3 +120,43 @@ img {
     border-radius: 40% 0;
 }
 
+
+/*carrucel*/
+
+.carucel {
+    max-width: 1345px;
+    height: 300px;
+    background-color: yellowgreen;
+}
+
+
+/*Nostros informacion sobre la empresa*/
+
+.nosotros {
+    max-width: 1345px;
+    height: 300px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 600px 500px;
+}
+
+
+/*imagen de la pagina*/
+
+.were {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+
+/*parrado, el texto de la pagina*/
+
+.parafo {
+    display: flex;
+    text-transform: uppercase;
+    color: rgb(48, 42, 42);
+    font-family: 'Nanum Myeongjo', serif;
+    width: 100%;
+}
