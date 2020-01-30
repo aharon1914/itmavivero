@@ -10,6 +10,7 @@
 
 .navegacion {
     height: 40px;
+    
 }
 
 .navegacion ul {
@@ -162,7 +163,82 @@ img {
     width: 100px;
     height: 100px;
 }
+/*informacion sobre el laboratorio y los diferentes laboratorios*/
+.three-columns {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns:400px 400px 400px ;
+    justify-content: center;
+}
 
+.contenido1 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 15px;
+    text-align: justify;
+}
+.contenido2 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+.contenido3{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+
+.cajaizq {
+    float: left;
+    width: 100%;
+}
+
+.cajaizq .contenido1  {
+    border-right: 4px solid #4BB495  ;
+}
+
+
+.cajader {
+    float: right;
+    width: 100%;
+}
+
+.cajamedia{
+    width: auto;
+    font-size: 18px;
+    width: 100%; 
+}
+.cajamedia .contenido3{
+    border-left: 4px solid #4BB495;
+    padding: 0 15px;
+}
+
+/*informacion por laboratorio microbiologia*/
+.Lab1{
+    width: 100%;
+    font-size: 28px;
+    color:blue;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.Lab2{
+    width: 100%;
+    font-size: 28px;
+    color:blue;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.Lab3{
+    width: 100%;
+    font-size: 28px;
+    color:blue;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
 
 /*Nostros informacion sobre la empresa*/
 
