@@ -2,7 +2,7 @@
 
 .cabecera {
     max-width: 1400px;
-    background-color: #fafafa;
+    background-color: #063c3d;
 }
 
 
@@ -10,7 +10,6 @@
 
 .navegacion {
     height: 40px;
-    
 }
 
 .navegacion ul {
@@ -21,7 +20,7 @@
 /* barra interactiva */
 
 .menu li a {
-    color: black;
+    color: wheat;
     padding: 5px;
     display: block;
     text-decoration: none;
@@ -42,7 +41,7 @@
 }
 
 .menu li a:hover {
-    color: black;
+    color: wheat;
 }
 
 
@@ -65,21 +64,22 @@
     transition-property: all;
     transition-duration: .80s;
     transition-delay: .2s;
+    background-color: #063c3d;
 }
 
 
 /* barra menu desplegable */
 
 .navegacion a:hover {
-    color: black;
-    background-color: #21bf73;
+    color: wheat;
+    background-color: #00393a;
 }
 
 
 /*Modifca la barra alado del icono*/
 
 .barra {
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,15 +113,14 @@ img {
 }
 
 .contenedor-imagen {
-    width: 250px;
+    width: 500px;
     height: 60px;
     margin-bottom: 10px;
 }
 
 .text {
-    width: 450px;
     height: 60px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quattrocento', serif;
     justify-items: center;
 }
 
@@ -152,95 +151,112 @@ img {
 /*Laboratorio de geostadistica informacion*/
 
 .Laboratorio {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quattrocento', serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #eff2fa;
+    font-size: 29px;
 }
 
 .labo {
     width: 100px;
     height: 100px;
 }
+
+
 /*informacion sobre el laboratorio y los diferentes laboratorios*/
+
 .three-columns {
     overflow: hidden;
     display: grid;
-    grid-template-columns:400px 400px 400px ;
+    grid-template-columns: 400px 400px 400px;
     justify-content: center;
 }
 
 .contenido1 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 20px;
     padding: 0 15px;
     text-align: justify;
 }
+
 .contenido2 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 20px;
     padding: 0 15px;
     text-align: justify;
 }
 
-.contenido3{
-    font-size: 18px;
+.contenido3 {
+    font-size: 15px;
     line-height: 20px;
     padding: 0 15px;
     text-align: justify;
 }
 
+
+/*contenido de las cajas e informacion*/
 
 .cajaizq {
     float: left;
     width: 100%;
 }
 
-.cajaizq .contenido1  {
-    border-right: 4px solid #4BB495  ;
-}
-
-
 .cajader {
     float: right;
     width: 100%;
 }
 
-.cajamedia{
+.cajamedia {
     width: auto;
-    font-size: 18px;
-    width: 100%; 
+    font-size: 17px;
+    width: 100%;
 }
-.cajamedia .contenido3{
-    border-left: 4px solid #4BB495;
+
+.cajamedia .contenido3 {
     padding: 0 15px;
 }
 
+
 /*informacion por laboratorio microbiologia*/
-.Lab1{
+
+.Lab1 {
     width: 100%;
-    font-size: 28px;
-    color:blue;
-    margin-bottom: 10px;
-    padding-left: 15px;
-}
-.Lab2{
-    width: 100%;
-    font-size: 28px;
-    color:blue;
-    margin-bottom: 10px;
-    padding-left: 15px;
-}
-.Lab3{
-    width: 100%;
-    font-size: 28px;
-    color:blue;
+    font-size: 25px;
+    color: blue;
     margin-bottom: 10px;
     padding-left: 15px;
 }
 
-/*Nostros informacion sobre la empresa*/
+.Lab2 {
+    width: 100%;
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.Lab3 {
+    width: 100%;
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+    padding-left: 17px;
+}
+
+
+/*imagenes de los laboratorios sus logos*/
+
+.imagen-lab1 {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    margin-left: 30%;
+}
+
+
+/*Nosotros informacion sobre la empresa*/
 
 .nosotros {
     max-width: 1345px;
@@ -254,7 +270,7 @@ img {
 /*imagen de la pagina*/
 
 .were {
-    width: 450px;
+    width: 500px;
     height: 300px;
     border-radius: 5px;
     margin-left: 15px;
@@ -270,3 +286,31 @@ img {
     font-family: 'Nanum Myeongjo', serif;
     width: 100%;
 }
+
+
+/*pie de la pagina texto eh imagen*/
+
+.pie-text {
+    font-family: 'Quattrocento', serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #063c3d;
+    margin-bottom: 2px;
+    width: 100%;
+    font-size: 30px;
+    color: #bbcfff;
+    
+}
+
+.pie-img {
+    width: 100px;
+    height: 100px;
+}
+
+.ver {
+    text-decoration: none;
+}
+
+
+/*galerias de fotos*/
