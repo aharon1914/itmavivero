@@ -125,7 +125,7 @@ img {
 }
 
 
-/*carrucel*/
+/*carrucel fotos */
 
 .carucel {
     max-width: 100%;
@@ -287,6 +287,12 @@ img {
     width: 100%;
 }
 
+/*galerias de fotos*/
+
+.imggale{
+    height: 80vh;
+}
+
 
 /*pie de la pagina texto eh imagen*/
 
@@ -313,4 +319,3 @@ img {
 }
 
 
-/*galerias de fotos*/
